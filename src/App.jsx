@@ -1,15 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
+    <main className="w-full bg-green-500 flex flex-col justify-center items-center">
+      <h3>
+        Abrir conversa
+      </h3>
 
-    </div>
+      <form className="w-[calc(100% - 2rem)]">  
+        <input placeholder="aaaaa" />
+
+        <button
+          type="submit"
+          className="
+            font-bold py-2 px-4 rounded
+            bg-blue-500 text-white
+            hover:bg-blue-700
+          "
+        >
+
+        </button>
+      </form>
+    </main>
   )
 }
 
